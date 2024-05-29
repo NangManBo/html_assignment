@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #d7ecff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  background-color: #2a5bff;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.main-title {
+  font-size: 2em;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.intro-table {
+  border-collapse: collapse;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.intro-table th,
+.intro-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.intro-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.additional-info {
+  margin-top: 20px;
+}
+
+.italic-text {
+  font-style: italic;
+  color: #333;
+}
+
+.larger-text {
+  font-size: 1.5rem;
+  color: #666;
+}
+
+.search-engines {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.naver-logo {
+  width: 100px;
+}
+.google-logo {
+  width: 100px;
+}
